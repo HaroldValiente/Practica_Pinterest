@@ -1,0 +1,246 @@
+<html lang="en">
+<title> Reto Coding</title>
+<body>
+<header>
+    
+    <img src="./IMAGENES_1/trabajador.png" alt="Icono de trabajador" width="50" height="50"> 
+    <link rel="shortcut icon" href="/01.HTML_STRUCTURE/icono.png" type="Image/x-icon" rel="stylesheet" href="style.css" type="text/css"/>
+</header>
+<aside>
+    <nav>
+        <h1> RETO CODING</h1>
+    </nav>
+</aside>
+
+
+<section>
+    <ul style=" background-color: deeppink;">
+    <li>Monkey D Luffy</li>
+    <li>Roronoa Zoro</li>
+    <li>Nami</li>
+    <li>Vinsmoke Sanji</li>
+    <li>Nico Robin</li>
+    </ul>
+    
+</section>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia omnis, id error doloribus corporis veniam illo libero commodi ipsa, voluptates quaerat rerum hic? Aliquid 
+    nulla ratione assumenda, aspernatur maxime ut.</p>
+
+<details>
+    <summary>Más información</summary>
+    <h2>Nombre</h2>
+    <img src="./IMAGENES_1/flores.jpg" alt="flores" height="350px"/>
+  </details>
+
+  <dialog id="alert">
+    <p>¡Hola!</p>
+    <button id="close" onclick="document.getElementById('alert').close()">Ok!</button>
+  </dialog>
+  <button id="show" onclick="document.getElementById('alert').show()">Mostrar</button>
+
+<video src="/01.HTML_STRUCTURE/anime.mp4" autoplay controls width="560" height="315"></video>
+
+<br>
+<br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Zuu6ClXRabE?si=vNqqTelUrbZBkO7I&amp;start=27" 
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p> Estamos haciendo un documento HTML sin utilizar el snippets del editor VS</p>
+
+
+<article>
+
+    <p>Este es un parrafo unicamente visual para ver el uso de
+        la etiqueta hr</p>
+         <hr/>
+         <p>Este es el segundo parrafo, separado del primero por la etiqueta hr, que puede
+       representarse mediante una línea horizontal.</p>
+
+<h1> Monkey D Luffy</h1>    
+
+    <div class="pirate">
+        <img src="./IMAGENES_1/luffy.webp" alt="Luffy en arco sabaody" height="200" width="150" onClick="alert('¡Has hecho clic!')">
+        <p>Mugiwara</p>
+    </div>
+
+<p> <i>Monkey D. Luffy, commonly known as "Straw Hat Luffy" or simply "Straw Hat",[10] is the founder, 
+    captain, and strongest combatant of the increasingly infamous and powerful Straw Hat Pirates.</i>
+    He fearlessly pursues the legendary treasure of the late Gol D. Roger in order to become the new Pirate King
+    and reach a further, untold dream <s>(currently known to only his crew, family and closest friends)</s>.
+    He believes that being the Pirate King means having the most freedom in the world</p>
+
+<footer>He is the main protagonist of the One Piece manga and anime series. </footer>
+
+</article> 
+
+<img src="./IMAGENES_1/gallo.png" width="200">
+
+<div>
+    <h2>SABO</h2>
+    <P>Hermano de Luffy</P>
+    <P>fruta del diablo: Mera Mera no Mi</P>
+</div>
+
+<div>
+    <h2>BUGGY</h2>
+    <P>Shishibukai</P>
+    <P>fruta del diablo:Bara Bara no Mi</P>
+</div>
+
+<div>
+    <h2>DOFLAMINGO</h2>
+    <P>Ex Shishibukai</P>
+    <P>fruta del diablo: Ito Ito no Mi</P>
+</div>
+
+<img style="width: 1000px;" 
+			src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/
+			2022/10/18/16661071524623.jpg" 
+      id="gandalfImage" alt="Gandalf">
+ <p id="textId"></p>
+        
+<script>
+    document.getElementById("gandalfImage").addEventListener("load", loadImage);
+    function loadImage() {
+        document.getElementById("textId").innerHTML = "Image loaded";
+    }
+</script>
+
+<blockquote cite="https://onepiece.fandom.com/es/wiki/Donquixote_Doflamingo" >
+
+    <p>Verás, los humanos... sin importar su personalidad... ¡¡Todos tienen "Crueldad" durmiendo en su interior, 
+        que se emociona al ver sangre!! ¡¡"Sangre" y "Muerte"!! ¡¡Eso es "entretenimiento"!!</p>
+
+        <footer>
+        <cite class="author"> Donquixote Doflamingo</cite>
+        <cite class="title"> Arco de Dressrosa - onepiece</cite>
+        </footer>
+
+        <!-- EJEMPLO DE ONCLICK QUE CUANDO HAGAMOS CLICK EN EL <p> 
+
+EL TEXTO SE CAMBIARÁ A ROJO -->
+
+<p id="example" onmouseenter="myFunction()">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit esse fugit expedita necessitatibus
+     repudiandae, exercitationem, ad tempora, recusandae veniam optio aspernatur magni similique! Eligendi cum laudantium suscipit, esse 
+     enim hic.</p>
+
+<script>
+function myFunction() {
+  document.getElementById("example").style.color = "red";
+}
+</script>
+
+<img src="https://www.gannett-cdn.com/-mm-/51e30e00349d6f72262284dc0b87892012a4e819/c=1343-90-2398-883/local/-/media/2017/06/26/USATODAY/USATODAY/636340759929048028-XXX-SPIDER-MAN-HOMECOMING-87249008.JPG?width=2560" 
+alt="Peter Parker" figcaption="Perter parker sin la mascara de spiderman" height="550px" >
+
+</blockquote>.
+
+<form>
+    <label>Personaje</label>
+    <input type="text" name="personaje">
+<br>
+    <label>Tripulación</label>
+    <input type="text" name="Tripulación">
+<br>
+<label>Enemigo</label>
+<select>
+    <option>si</option>
+    <option>no</option>
+</select>
+
+
+<label for="fname">First name:</label>
+<input type="text" id="fname" name="fname">
+<label for="lname">Last name:</label>
+<input type="text" id="lname" name="lname">
+<input type="submit" value="Submit">
+
+
+
+
+
+</form>
+
+
+
+
+<!-- 
+<input type="text" id="identificador" size="tamaño"
+ name="nombre" value="texto por defecto"/>
+<input type="checkbox">
+<input type="range">
+
+<audio src="/01.HTML_STRUCTURE/guitar.mp3" preload="none" controls></audio>
+
+<div></div>
+<form method="post" action="/user">
+    <label for="nick">nickName:</label>
+    <input type="text" name="nick" placeholder="Su nick"
+   minlength="2" maxlength="8">
+    <button type="submit">Enviar</button>
+   </form>
+
+   <label for="avengers">Elige una opción:</label>
+<select name="avengers" id="avengers">
+ <option value="thor">Thor</option>
+ <option value="hulk">Hulk</option>
+ <option value="ironman">Ironman</option>
+</select>
+
+<select name="ciudad">
+    <optgroup label="Europa">
+    <option>Madrid</option>
+    <option>Londres</option>
+    <option>Paris</option>
+    </optgroup>
+    <optgroup label="Suramerica">
+    <option>Santiago</option>
+    <option>Sao Paulo</option>
+    <option>Lima</option>
+    <option>Bogota</option>
+    </optgroup>
+    <optgroup label="Africa">
+    <option>Casablanca</option>
+    <option>Ciudad del Cabo</option>
+    </optgroup>
+    </optgroup>
+    <optgroup label="Oceania">
+    <option>Sydney</option>
+    <option>Auckland</option>
+    </optgroup>
+    </select>
+
+    
+    <form method="post" action="/register">
+        <label for="nombre">Usuario:</label>
+        <input type="text" name="nombre"
+       placeholder="Name" minlength="5" maxlength="40"
+       required pattern="[A-Za-z0-9]+">
+        <button type="submit">Registrarse</button>
+       </form>
+       
+        <datalist id="items">
+        <option value="1">Opción 1</option>
+        <option value="2">Opción 2</option>
+        <option value="3">Opción 3</option>
+        </datalist>
+       </form>
+
+       <form method="post" action="/coche">
+        <label for="coche">Coche:</label>
+        <input type="text" name="coche"
+       placeholder="Su modelo de coche" required
+        pattern="A|a(1|3|4|6)"
+       title="Modelos posibles: A1, A3, A4 y A6">
+        <button type="submit">Enviar</button>
+       </form>
+
+
+
+</body>
+
+
+</html>
