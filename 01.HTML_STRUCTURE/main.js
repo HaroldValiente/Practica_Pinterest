@@ -1,6 +1,0 @@
-console.log("Hola Mundo");
-
-
-
-
- 
